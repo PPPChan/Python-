@@ -39,5 +39,5 @@ plt.show()
 # 获得模块所在的路径的
 d = path.dirname(__file__)
 # os.path.join()：  将多个路径组合后返回
-wc.to_file(path.join(d, "h11.jpg"))
+wc.to_file(path.join(d, "wordcloud.jpg"))
 print('生成词云成功!')
